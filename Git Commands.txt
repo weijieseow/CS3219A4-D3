@@ -1,0 +1,9 @@
+Git Commands
+
+Objective 1
+git log --after="2016-06-01" --before="2016-07-01" --oneline --pretty=format:'%cn'
+
+Objective 2
+git log --numstat --oneline --after="2016-06-01" --before="2016-07-01" --pretty=tformat: --numstat | awk '{ add += $1 ; subs += $2 } END { printf "insertion: %s deletion: %s\n",add,subs }' -
+
+Objective 3
