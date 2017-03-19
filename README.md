@@ -7,7 +7,8 @@ Group Bar Chart for objective 1:
 
 Group Bar Chart for objective 2:
 
-![Alt text](/obj2/group_bar_chart.png "Group Bar Chart")
+![Alt text](/obj2/obj2_stacked.png "Stacked Bar Chart")
+![Alt text](/obj2/obj2_grouped.png "Group Bar Chart")
 
 Group Bar Chart for objective 3:
 
