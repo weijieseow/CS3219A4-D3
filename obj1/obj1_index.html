@@ -10,6 +10,7 @@
               height: 360px; 
               position: relative; 
               width: 360px;
+              margin: auto;
           } 
           .tooltip {
               background: #eee; 
@@ -44,7 +45,7 @@
   </head>
   <body>
     <h1>Commits by each author from 1st June to 1st July 2016</h1>
-    <div id="chart"></div>
+    <div id="chart">
     <script src="d3.v4.min.js"></script>
     <script>
       (function(d3) {
@@ -178,5 +179,6 @@ legend.append('text')
       })(window.d3);
         
     </script>
+    </div>
   </body>
 </html>
